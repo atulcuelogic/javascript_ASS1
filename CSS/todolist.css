@@ -1,0 +1,28 @@
+.container{  max-width: 1280px;  margin: 0 auto;  padding: 0; }
+
+header{  top: 0;  left: 0;right: 0;  height: 80px; background-color: red; }
+header ul{  margin-left:900px;  }
+header a{  text-decoration: none;   float: left;  padding-right: 30px; }
+img{float: left; width: 480px;position: relative; height:600px;margin-left: 500px;}
+.createtodo{  width: 500px;  margin: 40px auto;  border-radius: 10px;  margin-left: 550px;   padding-top:50px; position: absolute;}
+.labeltitle{  padding-right: 50px;}
+* {	box-sizing: border-box;	border: 0px;  margin: 0px;   padding: 0px;}
+.edittodo_form{  width: 500px;  margin: 40px auto;  }
+h3{  display: inline-block;  padding-top: 30px;  padding-left: 10px;  color: #FFFFFF;
+    text-decoration: none;  text-shadow: 4px 4px 4px #000000;}
+.profile, .list{  float: right; color: #ffffff;  padding: 10px 10px 10px 10px; ;
+    height: 40px;  margin-top: 25px;  margin-right: 10px;  margin-bottom: 15px;   border-radius: 5px;  }
+#create{  text-align: center;    padding-bottom: 40px;  font-size: 40px;  color: red; margin-left: -85px;}
+h2{ text-align: center;    padding-bottom: 40px;  font-size: 30px; padding-top: 20px; }
+label{   font-size: 18px;  font-weight: 600; margin-right: 10px; }
+input[type=text],input[type=date]{  display: inline-block;  width: 300px;  height: 35px;
+    border: 1px solid #151D41;  border-radius: 5px;  margin-bottom: 25px;   background-color: #FFFFFF;
+    font-size: 18px;  font-family: 'Roboto';  color: #151D41;  padding-left: 25px;  padding-bottom: 15px;}
+fieldset{  margin-bottom: 20px;}
+#createTodo{  display: block;  font-size: 20px;  font-family: 'Montserrat';
+    color: #FFFFFF;  background-color:red; border-radius: 10px;  margin-left: 130px;
+     width: 150px; height:45px; }
+#button_1{padding-top: 40px;}
+.back{ color: #000000;  position:absolute;   top:40px; left:800px; font-size: 20px;}
+.error{  color: #d9534f;  padding-left: 20px ;  font-weight: bold;}
+#reminderDate{width: 260px;}

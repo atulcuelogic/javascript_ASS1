@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="../javascript/todolist.js" ></script>
+        <link rel="stylesheet" href="../CSS/todolist.css">
+        
+    </head>
+    <body>
+      <header>
+        <ul>
+          <a href="homepage.html"><h2>Home</h2></a>
+          <a href="todolist.html"><h2> Create todo</h2></a>
+          <a href="profile-details.html"><h2>my profile</h2></a>
+          <a href="../login.html"><h2>logout</h2> </a>
+          </ul>
+      </header>
+      <section>
+        
+        <img src="../images/112.jpg">
+        <form class="createtodo">
+          <h2 id="create">Create Todo</h2>  
+          <p id="title_err" class="error"></p>
+          <label for="todoTitle" class="labeltitle">Title:</label>
+          <input type="text" id="todoTitle" placeholder="title" >
+
+          <br>
+          <p id="startdate_err" class="error"></p>
+          <label for="todoStartDate" class="label">Select Date:</label>
+          <input type="date" id="todoStartDate">
+                
+
+          <fieldset >
+            <label  class="label"> Set Public :</label>
+            <input type="radio" id="ispublicYes" name="public" value="yes">
+            <label for="ispublicYes">Yes</label>
+
+            <input type="radio" id="ispublicNo" name="public" value="No" checked>
+            <label for="ispublicNo">No</label>
+          </fieldset>
+
+          <fieldset class="reminder">
+            <label class="label">Set Reminder :</label>
+            <input type="radio" id="reminderYes" name="reminder" value="yes" >
+            <label for="reminderYes">Yes</label>
+            
+            <input type="radio" id="reminderNo" name="reminder" value="No" checked >
+            <label for="reminderNo">No</label>
+            </fieldset>
+          
+          <div id="div_reminder" >
+            <p id="reminderdate_err" class="error"></p>
+            <label for="reminderdate" class="label">Reminder Date:</label>
+            <input type="date" id="reminderDate" name="reminder">
+          </div>
+          
+          
+          <p id="categories_err" class="error"></p>
+          <label for="todoCategory" class="label">Select Category :</label>
+          <input type="checkbox"  id="chk_office" name="todoCategory" value="office" >
+          <label for="office">Office</label>
+
+          <input type="checkbox" id="chk_home" name="todoCategory" value="home" >
+          <label for="home">Home</label>
+
+          <input type="checkbox" id="chk_personal" name="todoCategory" value="personal" >
+          <label for="personal">Personal</label>
+          <br> 
+          <div id="button_1"> 
+          <input id="createTodo" type="button" value="Add Todo">
+          </div>
+        </form>
+      </section>
+     
+    </body>
+    </html>
+

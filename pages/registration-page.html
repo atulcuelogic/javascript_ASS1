@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../CSS/registration.css">
+        <script src="../javascript/registration-form.js"></script>
+        <title>Registration form</title>
+
+    </head>
+    <body >
+                <div class="container">
+                    <a id="img"><img src="../images/logo.jpg"></a>
+            <section class="account">
+               
+                
+                <form class="sign_up">
+                
+                    <div>
+                        <label >Enter FirstName :</label>
+                        <span id="firsterror" class="error"></span>
+                        <input type="text" placeholder="Enter firstname" name="firstname" id="firstname" >
+                    </div>
+
+                    <div>
+                        <label for="lname">Enter LastName :</label>
+                        <span id="lasterror" class="error"></span>
+                        <input type="text" placeholder="Enter lastname" name="lastname" id="lastname" ">
+                    </div>
+
+                    <div>
+                        <label for="mailid">Enter Email-ID :</label>
+                        <span id="mailerror" class="error"></span>
+                        <input type="email" placeholder="Enter email-id " name="emailid" id="emailid")">
+                    </div>
+
+                    <div>
+                        <label for="paserror">Enter Password :</label>
+                        <span id="passerror" class="error"></span>
+                        <input type="password"placeholder="Enter Password" name = "password" id = "password" >
+                    </div>
+
+                    <div>
+                        <label>Enter Confirm Password :</label>
+                        <span id="cpasserror" class="error"></span>
+                        <input type="password" name="confirmpass" id="confirmpass" placeholder="Enter confirm password" >
+                    </div>
+
+                    <div>
+                        <label id="add">Enter Address :</label> 
+                        <span id="adderror" class="error"></span>
+                        <input type="text" placeholder="Enter address here" name="address" id="address" >
+                    </div>
+                    <div>
+                        <label for="gender">Gender :</label>
+                        <input type= "radio" value="male" name="gender" id="redio1">
+                        <label for="male">male</label>
+                        <input type="radio" value="female" name = "gender" id="redio2">
+                        <label for="female">female</label><br>
+                    </div>
+                   
+                    <div>
+                        <br>
+                        <label id="profile-img">Profile Picture :</label>
+                        <span id="proerror" class="error"></span>
+                        <input type="file" name=profile-img id="profileimg" onchange="getImage();">
+                       
+                    </div>  
+
+                    <div class="submit-button">
+
+                        <input type="button" id="register" value="Register">
+                        <a href="../login.html" class="login">Back to Login!!</a>
+                    </div>
+                    <br>
+                </form>
+            
+            </section>
+        </div>
+          
+    </body>
+</html>

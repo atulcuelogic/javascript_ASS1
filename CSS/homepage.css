@@ -1,0 +1,9 @@
+body{background-color:#16c79a;}
+header{ margin-top: -10px;  left: 0;right: 0;  height: 60px; background-color:red }
+header ul{  margin-left:1000px;  }
+header a{  text-decoration: none;   float: left;  padding-right: 30px; color: black;}
+.status{float: left; margin-right: 40px; margin-left:350px;}
+section #search_title{ float: left;  padding-right: 60px; margin-left: 200px; }
+section .date{   padding-top: 80px;margin-left: 500px; }
+section .todotable{  padding-top: 60px;  margin-left:450px; }
+section .todotable table th{ padding-right:20px;  }

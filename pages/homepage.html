@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/homepage.css">
+    <script src="../javascript/homepage.js"></script>
+    <script src="../javascript/deletetodo.js"></script>
+    <script src="../javascript/searchbytitle.js"></script>
+    <script src="../javascript/searchbystatus.js"></script>
+    <script src="../javascript/searchbycategory.js"></script>
+   
+  </head>
+  <body>
+    <header>
+        <ul>
+        <a href="homepage.html"><h2>Home</h2></a>
+        <a href="todolist.html"><h2> Create todo</h2></a>
+        <a href="profile-details.html"><h2>my profile</h2></a>
+        <a href="../login.html"><h2>logout</h2> </a>
+        </ul>
+    </header>
+    
+    <section class="container">
+      <div id="search_title">
+        <input type="text" id="titlesearch" value="" placeholder="Search by title"  />
+      </div>
+      
+      
+      <div class="status">
+        <b>Status: </b>
+        <input type="radio" id="all"    name="statusSearch" value="all"  checked> All
+        <input type="radio" id="complete" name="statusSearch" value="completed"> Completed 
+        <input type="radio" id="pending"  name="statusSearch" value="pending"> Pending
+      </div>
+      
+      <div class="category">
+        <b>Category: </b>
+        <input type="checkbox" id="office" name="searchByCategory" value="office"> Office 
+        <input type="checkbox" id="home" name="searchByCategory" value="home"> Home 
+        <input type="checkbox" id="personal" name="searchByCategory" value="personal"> Personal
+      </div>
+
+      <div class="date">
+        <b>Date Range: </b>
+        From:<input type="date" id="startDate" >
+        To:<input type="date" id="endDate" >
+        <input type="button" value="search"  onclick="searchByDate()" />
+      </div>
+    
+      <div class="todotable">
+        <table id="todoTbl" class="tasktable">
+        <thead>
+          <th><button id="deleteTodo"  onclick="deletetodos()">Delete</button></th>
+            <th>Title</th>
+            <th>Start Date</th>
+            <th>Status</th>
+            <th>Is Overdue</th>
+            <th>Category</th>
+            <th>Mark Done</th>
+          
+           
+        </thead>
+        <tbody id="tbl_todolist_tbody"></tbody>
+      </table>
+    </div>
+  </section>
+ 
+</body>
+</html>

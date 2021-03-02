@@ -1,0 +1,21 @@
+body{background-image: url(../images/bb2.jpg);}
+.container{    margin: 0 auto;   padding: 0;  }
+label{ font-size: 22px; float: left; margin-right:15px; color:white;}
+.account{  width:380px;  margin: 0 auto;  
+    border: 1px solid #151D41;  border-radius: 15px;   padding: 30px ;
+    margin-bottom: 50px; box-shadow:5px 5px 5px 5px grey;  }
+
+#img{float: left; height: 60px;}
+input{  width:350px;  height: 37px;  border: 1px solid #151D41;   border-radius: 5px;
+    margin-bottom: 25px;   background-color: #FFFFFF;   font-size: 18px;
+    color: #151D41; 
+} 
+.gender{ padding-top: 40px;  font-size: 18px; color: #151D41; }
+.submit-button{margin-left:80px;}
+.submit-button #register{ text-align: center;height: 45px; width:150px; background-color: blue; color: white; }
+a{	display: inline-block;	text-decoration: none;	color: #151D41;
+    font-size: 18px;  font-weight: 600; }
+#redio1{height: 20px; width: 20px;float: left;}
+#redio2{height: 20px; width: 20px; float: left;}
+#profile-img{margin-left:22px;}
+span{color: red;}
